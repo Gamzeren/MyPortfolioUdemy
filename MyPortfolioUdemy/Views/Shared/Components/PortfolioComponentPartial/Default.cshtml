@@ -1,0 +1,58 @@
+﻿@model List<MyPortfolioUdemy.DAL.Entities.Portfolio>
+
+<section id="works" class="s-works target-section">
+
+    <div class="row narrow section-intro has-bottom-sep">
+        <div class="col-full">
+            <h3>Portfolyom</h3>
+            <h1>Son Projelerime Göz Atabilirsiniz</h1>
+
+            <p class="lead">Geliştirmiş Olduğum Projeleri Aşağıda Görüntüleyip Detaylarına Link Üzerinden Ulaşabilirsiniz</p>
+        </div>
+    </div>
+
+    <div class="row masonry-wrap ">
+        @foreach (var item in Model)
+        {
+            <div class="masonry-wrap">
+
+                <div class="masonry__brick ">
+
+
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="@item.ImageUrl" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="@item.ImageUrl "
+                                     srcset="@item.ImageUrl 1x, @item.ImageUrl 2x" alt="">
+                                <span class="shadow-overlay  "></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                @item.Title
+                            </h3>
+                            <p class="item-folio__cat">
+                                @item.SubTitle
+                            </p>
+                        </div>
+
+                        <a href="@item.Url" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>@item.Description</p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+
+                </div>
+
+            </div>
+        }
+    </div>
+
+
+</section> 
