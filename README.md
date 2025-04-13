@@ -21,10 +21,10 @@ Asp.Net Core teknolojisini kullanarak, Code First yaklaşımlı, MSSQL tabanlı,
 🔹ViewComponent</br>
 🔹Model - View - Controller yapısı</br>
 ## ⭐️Özellikler
-🔹Kullanıcı arayüzünde dinamik içerik yönetimi
-🔹Admin paneli ile içerik güncelleme ve veri ekleme
-🔹Migration işlemleriyle veritabanı yönetimi
-🔹Katmanlı mimari yapısı
+🔹Kullanıcı arayüzünde dinamik içerik yönetimi</br>
+🔹Admin paneli ile içerik güncelleme ve veri ekleme</br>
+🔹Migration işlemleriyle veritabanı yönetimi</br>
+🔹Katmanlı mimari yapısı</br>
 🔹Gerçek bir CV/Portfolyo projesi üretimi
 ## 📷Ekran Resimleri
 
